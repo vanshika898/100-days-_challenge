@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class day2 {
+    
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the first number:");
@@ -13,6 +14,7 @@ public class day2 {
         System.out.printf("The average of three numbers %d, %d, %d is %d", a, b, c, average);
     }
 }
+
 
 
 
