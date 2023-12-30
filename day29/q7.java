@@ -45,6 +45,10 @@ class LinkedList {
     public void addmid(int indx, int data) {
         int i = 0;
         Node temp = head;
+        if (indx == 0) {
+            addFirst(data);
+            return;
+        }
         Node newNode = new Node(data);
         while (i < indx - 1) {
             temp = temp.next;
