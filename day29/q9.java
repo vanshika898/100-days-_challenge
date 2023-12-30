@@ -114,6 +114,24 @@ class LinkedList {
         System.out.print("not found so:");
         return -1;
     }
+
+    public int helper(Node head, int key) {
+        if (head == null) {
+            return -1;
+        }
+        if (head.data == key) {
+            return 0;
+        }
+        int idx = helper(head.next, key);
+        if (idx == -1) {
+            return -1;
+        }
+        return idx + 1;
+    }
+
+    public int recserch(int key) {
+        return helper(head, key);
+    }
 }
 
 public class q9 {
@@ -127,7 +145,7 @@ public class q9 {
         // System.out.println(a.size);
         a.removeLast();
         a.printlist();
-        System.out.print(a.serch(20));
-        System.out.print(a.serch(40));
+        System.out.print(a.recserch(20));
+        // System.out.print(a.serch(40));
     }
 }
