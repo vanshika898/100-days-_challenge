@@ -79,6 +79,21 @@ class doublell {
 
     }
 
+    public void reverse() {
+        Node prev = null;
+        Node current = head;
+        Node next;
+        while (current != null) {
+            next = current.next;
+            current.next = prev;
+            current.prev = next;
+            prev = current;
+            current = next;
+
+        }
+        head = prev;
+    }
+
     public void print() {
         Node temp = head;
         while (temp != null) {
@@ -100,6 +115,8 @@ public class doblley {
         // ll.removefirst();
         ll.removeLast();
         System.out.println(ll.size);
+        ll.print();
+        ll.reverse();
         ll.print();
 
     }
