@@ -132,6 +132,19 @@ class LinkedList {
     public int recserch(int key) {
         return helper(head, key);
     }
+
+    public static void reverse() {
+        Node prev = null;
+        Node curr = tail = head;
+        Node next;
+        while (curr != null) {
+            next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+        }
+        head = prev;
+    }
 }
 
 public class q9 {
@@ -139,13 +152,16 @@ public class q9 {
         LinkedList a = new LinkedList();
         a.addFirst(20);
         a.addFirst(30);
-        a.addLast(10);
-        a.addmid(2, 100);
+        a.addFirst(10);
+        // a.addLast(10);
+        // a.addmid(2, 100);
         a.printlist();
         // System.out.println(a.size);
-        a.removeLast();
+        // a.removeLast();
+        // a.printlist();
+        // System.out.print(a.recserch(20));
+        a.reverse();
         a.printlist();
-        System.out.print(a.recserch(20));
-        // System.out.print(a.serch(40));
+
     }
 }
