@@ -13,9 +13,23 @@ class stackB {
     }
 
     public static Node head = null;
+    public static int maxSize = 5;
 
     public static boolean isEmpty() {
         return head == null;
+    }
+
+    public static boolean isFull() {
+
+        int currentSize = 0;
+        Node current = head;
+
+        while (current != null) {
+            currentSize++;
+            current = current.next;
+        }
+
+        return currentSize >= maxSize;
     }
 
     public static void push(int data) {
@@ -74,8 +88,8 @@ class stackB {
 
     public static void main(String[] args) {
         stackB s = new stackB();
-        s.push(1);
-        s.push(2);
+        s.push(10);
+        s.push(20);
         s.push(3);
 
         reverse(s);

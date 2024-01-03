@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "circularqueue",
+            "request": "launch",
+            "mainClass": "circularqueue",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
