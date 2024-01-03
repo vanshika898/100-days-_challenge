@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "qlinked",
+            "request": "launch",
+            "mainClass": "qlinked",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
             "name": "circularqueue",
             "request": "launch",
             "mainClass": "circularqueue",
