@@ -1,0 +1,322 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Transpose",
+            "request": "launch",
+            "mainClass": "Transpose",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
+            "name": "array",
+            "request": "launch",
+            "mainClass": "array",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
+            "name": "basics",
+            "request": "launch",
+            "mainClass": "basics",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
+            "name": "bubble_sortalgorithm",
+            "request": "launch",
+            "mainClass": "bubble_sortalgorithm",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
+            "name": "comparefuction",
+            "request": "launch",
+            "mainClass": "comparefuction",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
+            "name": "countnumber",
+            "request": "launch",
+            "mainClass": "countnumber",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
+            "name": "day2",
+            "request": "launch",
+            "mainClass": "day2",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
+            "name": "diagonal_sum",
+            "request": "launch",
+            "mainClass": "diagonal_sum",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
+            "name": "doblley",
+            "request": "launch",
+            "mainClass": "doblley",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
+            "name": "input_2Darray",
+            "request": "launch",
+            "mainClass": "input_2Darray",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
+            "name": "insertion_sort",
+            "request": "launch",
+            "mainClass": "insertion_sort",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
+            "name": "loop",
+            "request": "launch",
+            "mainClass": "loop",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
+            "name": "loops",
+            "request": "launch",
+            "mainClass": "loops",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
+            "name": "middle",
+            "request": "launch",
+            "mainClass": "middle",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
+            "name": "palindrome",
+            "request": "launch",
+            "mainClass": "palindrome",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
+            "name": "practiceq1",
+            "request": "launch",
+            "mainClass": "practiceq1",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
+            "name": "printchar",
+            "request": "launch",
+            "mainClass": "printchar",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
+            "name": "psp",
+            "request": "launch",
+            "mainClass": "psp",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
+            "name": "q1",
+            "request": "launch",
+            "mainClass": "q1",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
+            "name": "q10",
+            "request": "launch",
+            "mainClass": "q10",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
+            "name": "q11",
+            "request": "launch",
+            "mainClass": "q11",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
+            "name": "q12",
+            "request": "launch",
+            "mainClass": "q12",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
+            "name": "q14",
+            "request": "launch",
+            "mainClass": "q14",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
+            "name": "q15",
+            "request": "launch",
+            "mainClass": "q15",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
+            "name": "q16",
+            "request": "launch",
+            "mainClass": "q16",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
+            "name": "q17",
+            "request": "launch",
+            "mainClass": "q17",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
+            "name": "q18",
+            "request": "launch",
+            "mainClass": "q18",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
+            "name": "q19",
+            "request": "launch",
+            "mainClass": "q19",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
+            "name": "q2",
+            "request": "launch",
+            "mainClass": "q2",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
+            "name": "q3",
+            "request": "launch",
+            "mainClass": "q3",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
+            "name": "q4",
+            "request": "launch",
+            "mainClass": "q4",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
+            "name": "q5",
+            "request": "launch",
+            "mainClass": "q5",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
+            "name": "q6",
+            "request": "launch",
+            "mainClass": "q6",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
+            "name": "q7",
+            "request": "launch",
+            "mainClass": "q7",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
+            "name": "q8",
+            "request": "launch",
+            "mainClass": "q8",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
+            "name": "q9",
+            "request": "launch",
+            "mainClass": "q9",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
+            "name": "search_element",
+            "request": "launch",
+            "mainClass": "search_element",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
+            "name": "selection_sort",
+            "request": "launch",
+            "mainClass": "selection_sort",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
+            "name": "sellandbuystocks",
+            "request": "launch",
+            "mainClass": "sellandbuystocks",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
+            "name": "shortestpath",
+            "request": "launch",
+            "mainClass": "shortestpath",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
+            "name": "sortedarrrysearchkey",
+            "request": "launch",
+            "mainClass": "sortedarrrysearchkey",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
+            "name": "spiral_matrix",
+            "request": "launch",
+            "mainClass": "spiral_matrix",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
+            "name": "switchcase",
+            "request": "launch",
+            "mainClass": "switchcase",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
+            "name": "trapped_water",
+            "request": "launch",
+            "mainClass": "trapped_water",
+            "projectName": "100-days-_challenge_f9a9205c"
+        }
+    ]
+}
