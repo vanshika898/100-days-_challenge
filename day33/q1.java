@@ -72,6 +72,27 @@ class q1 {
         return root;
     }
 
+    public static void preorder(Node root) {
+        if (root == null) {
+            return;
+        }
+        System.out.print(root.data + " ");
+        preorder(root.left);
+        preorder(root.right);
+
+    }
+
+    public static void postorder(Node root) {
+        if (root == null) {
+            return;
+        }
+
+        postorder(root.left);
+        postorder(root.right);
+        System.out.print(root.data + " ");
+
+    }
+
     public static Node findinordersuccesor(Node root) {
         while (root.left != null) {
             root = root.left;
@@ -103,6 +124,12 @@ class q1 {
         }
 
         printinrange(root, 10, 30);
+        inorder(root);
+        System.out.println();
+        preorder(root);
+        System.out.println();
+        postorder(root);
+        System.out.println();
 
     }
 }
