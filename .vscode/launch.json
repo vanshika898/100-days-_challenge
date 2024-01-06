@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DFS",
+            "request": "launch",
+            "mainClass": "day34.DFS",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
+            "name": "graph",
+            "request": "launch",
+            "mainClass": "graph",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
             "name": "q7",
             "request": "launch",
             "mainClass": "day32.q7",
