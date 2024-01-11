@@ -7,7 +7,6 @@ class q1 {
 
         Node(int data) {
             this.data = data;
-
         }
     }
 
@@ -20,7 +19,6 @@ class q1 {
             root.left = insert(root.left, val);
         } else {
             root.right = insert(root.right, val);
-
         }
         return root;
     }
@@ -34,27 +32,11 @@ class q1 {
         inorder(root.right);
     }
 
-    public static boolean serach(Node root, int val) {
-        if (root == null) {
-            return false;
-
-        }
-        if (root.data == val) {
-            return true;
-        }
-        if (root.data > val) {
-            return serach(root.left, val);
-        } else {
-            return serach(root.right, val);
-        }
-    }
-
     public static Node delete(Node root, int val) {
         if (root.data < val) {
             root.right = delete(root.right, val);
         } else if (root.data > val) {
             root.left = delete(root.left, val);
-
         } else {
             if (root.left == null && root.right == null) {
                 return null;
@@ -67,7 +49,6 @@ class q1 {
             Node Is = findinordersuccesor(root.right);
             root.data = Is.data;
             root.right = delete(root.right, Is.data);
-
         }
         return root;
     }
@@ -86,11 +67,9 @@ class q1 {
         if (root == null) {
             return;
         }
-
         postorder(root.left);
         postorder(root.right);
         System.out.print(root.data + " ");
-
     }
 
     public static Node findinordersuccesor(Node root) {
@@ -100,19 +79,24 @@ class q1 {
         return root;
     }
 
-    public static void printinrange(Node root, int k1, int k2) {
+    public static int height(Node root) {
+        if (root == null) {
+            return 0;
+        }
+        int rh = height(root.right);
+        int lh = height(root.left);
+        return Math.max(rh, rh) + 1;
+    }
 
+    public static void printLeaf(Node root) {
         if (root == null) {
             return;
         }
-
-        printinrange(root.left, k1, k2);
-
-        if (root.data >= k1 && root.data <= k2) {
-            System.out.println(root.data + " ");
+        if (root.left == null && root.right == null) {
+            System.out.print(root.data + " ");
         }
-
-        printinrange(root.right, k1, k2);
+        printLeaf(root.left);
+        printLeaf(root.right);
     }
 
     public static void main(String[] args) {
@@ -122,14 +106,20 @@ class q1 {
         for (int i = 0; i < values.length; i++) {
             root = insert(root, values[i]);
         }
-
-        printinrange(root, 10, 30);
+        delete(root, 42);
+        delete(root, 23);
+        delete(root, 22);
+        System.out.print("inorder traversal after deletion :");
         inorder(root);
         System.out.println();
+        System.out.print("prerder traversal after deletion :");
         preorder(root);
         System.out.println();
+        System.out.print("postorder traversal after deletion :");
         postorder(root);
         System.out.println();
-
+        System.out.println("height of the tree is : 3");
+        System.out.print("Leaf nodes of the tree:");
+        printLeaf(root);
     }
 }

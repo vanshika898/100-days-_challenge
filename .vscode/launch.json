@@ -8,6 +8,13 @@
             "type": "java",
             "name": "DFS",
             "request": "launch",
+            "mainClass": "DFS",
+            "projectName": "100-days-_challenge_f9a9205c"
+        },
+        {
+            "type": "java",
+            "name": "DFS",
+            "request": "launch",
             "mainClass": "day34.DFS",
             "projectName": "100-days-_challenge_f9a9205c"
         },
